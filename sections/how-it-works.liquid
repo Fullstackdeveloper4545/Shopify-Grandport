@@ -1,0 +1,92 @@
+<section class="how-it-works">
+  <h2>How it works</h2>
+
+  <div class="steps">
+    <div class="step">
+      <span class="step-number">1</span>
+      <p>Tell us what you need</p>
+    </div>
+
+    <div class="step">
+      <span class="step-number">2</span>
+      <p>We find suppliers</p>
+    </div>
+
+    <div class="step">
+      <span class="step-number">3</span>
+      <p>Samples &amp; confirmation</p>
+    </div>
+
+    <div class="step">
+      <span class="step-number">4</span>
+      <p>Production &amp; QC</p>
+    </div>
+
+    <div class="step">
+      <span class="step-number">5</span>
+      <p>Shipping &amp; delivery</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.how-it-works {
+  padding: 80px 40px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 34px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.steps {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.step {
+  background: #f6f8fb;
+  padding: 30px 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.step-number {
+  width: 42px;
+  height: 42px;
+  background: #f36b21;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.step p {
+  font-size: 15px;
+  font-weight: 500;
+}
+</style>
+
+{% schema %}
+{
+  "name": "How it works",
+  "settings": [],
+  "presets": [
+    {
+      "name": "How it works",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
